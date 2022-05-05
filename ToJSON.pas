@@ -1,6 +1,6 @@
 unit ToJSON;
 
-{*This unit takes any class and turns it to JSON, names of properties are keys and their values are values. Due to use of RTTI context expect some increase in
+{*This unit takes any class and turns it to TJSONObject, names of properties are keys and their values are values. Due to use of RTTI context expect some increase in
   size of project after compiling. Code supports basic variables, dynamic arrays and other classes inside given object or inside dynamic array *}
 
 interface
